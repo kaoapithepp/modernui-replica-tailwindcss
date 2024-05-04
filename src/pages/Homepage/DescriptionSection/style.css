@@ -1,0 +1,13 @@
+#description-section {
+  display: grid;
+  grid-template-areas: "a a a a a a b b b b b b";
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+#a {
+  grid-area: a;
+}
+
+#b {
+  grid-area: b;
+}
